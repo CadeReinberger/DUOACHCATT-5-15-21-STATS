@@ -276,6 +276,8 @@ def combine_and_write_stats():
         rddf.to_excel(writer, sheet_name='Team Rosters', header=False)
 
 combine_and_write_stats()
+       
+#print(parse_indiv_stats(1, 2))
 print('Stats Successfully Compiled.')
         
     
